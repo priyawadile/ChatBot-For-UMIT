@@ -1,0 +1,350 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "location",
+        "patterns": [
+          "Where the college is located?",
+          "which station is nearer to college?"
+          
+        ],
+        "responses": [
+          "Santacruz",
+          "Santacruz , juhu road"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "fees",
+        "patterns": [
+          "what is the fees of courses ?",
+          "fees"
+        ],
+        "responses": [
+          "You can check this out at https://www.umit.ac.in/_files/ugd/db66c0_c7f0b40de0874873b032384eb3aedc4f.pdf"
+          
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "timings",
+        "patterns": [
+          "colllge timings?",
+          "Time of college"
+          
+        ],
+        "responses": [
+          "it is from 8:30 to 5"
+    
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "about this college",
+        "patterns": [
+          "Tell something !",
+          "about this college!",
+          "college information?"
+        ],
+        "responses": [
+          "Usha Mittal Institute of Technology is an engineering college which focuses on curriculum of students and overall development for bright future."
+        ],
+        "context_set": ""
+      } ,
+      {
+        "tag": "cut off ",
+        "patterns": [
+          "cut off",
+          "cut off of this college ",
+          "What is the cut off of this college??"
+        ],
+        "responses": [
+          "You can check this out at https://www.umit.ac.in/_files/ugd/db66c0_af3ff755f6bf4ede8608b284deaa98c0.pdf"
+        ],
+        "context_set": ""
+      } ,
+      {
+        "tag": "Feedback by students",
+        "patterns": [
+          "Feedback by students",
+          "students feedback",
+          "teachers feedback",
+          "Feedback by faculties"
+        ],
+        "responses": [
+          "Students enjoy the environment of college, the fests conducted by different councils, the facilties provided for inter-collegiate competitions are good,  placements being good are some feedback."
+        ],
+        "context_set": ""
+      } ,
+      {
+        "tag": "other things",
+        "patterns": [
+          "What are the other things that can be done in this college besides studies?",
+          "other things in college",
+          "other activities"
+        ],
+        "responses": [
+          "There are many councils like Student Council, Sports Council, IEEE, CSI, E-Cell, NSS, UA^2, ACM, WIE. Apart from councils there are clubs like GFG, GDSC, Writer's Club. With this students can join NCC and Rotract Club. Students are also encouraged in participating in various inter-collegiate events and university competitions."
+        ],
+        "context_set": ""
+      } ,
+
+      {
+        "tag": "about this college",
+        "patterns": [
+          "Tell something !",
+          "about this college!",
+          "college information?"
+        ],
+        "responses": [
+          "Usha Mittal Institute of Technology is an engineering college which focuses on curriculum of students and overall development for bright future."
+        ],
+        "context_set": ""
+      } ,
+
+      {
+        "tag": "about this college",
+        "patterns": [
+          "Tell something !",
+          "about this college!",
+          "college information?"
+        ],
+        "responses": [
+          "Usha Mittal Institute of Technology is an engineering college which focuses on curriculum of students and overall development for bright future."
+        ]
+      } ,
+
+      {
+        "tag": "about hostel facilities ",
+        "patterns": [
+          "Tell something about hostel facilities ",
+          "hostel facilities",
+          "How are the hostel facilities??"
+        ],
+        "responses": [
+          "they are good , co-operative , frinedly "
+        ],
+        "context_set": ""
+      } ,
+
+      {
+        "tag": "How are seniors of this college?",
+        "patterns": [
+          "seniors of this college",
+          "How are seniors of this college?",
+          "How are seniors of this college??"
+        ],
+        "responses": [
+          "Seniors of this college are very helpful and guide in every path of college life."
+        ],
+        "context_set": ""
+      } ,
+
+      {
+        "tag": "placement",
+        "patterns": [
+          "placement",
+          "pacakages of college ",
+          "How many students are placed each year from college??"
+        ],
+        "responses": [
+          "In the year 2021-22, 177 students were placed with 22 companies providing highest package of Rs 19.63 Lakh CTC."
+        ],
+        "context_set": ""
+      } ,
+      {
+        "tag": "Do teachers complete the allotted syllabus?",
+        "patterns": [
+          "Do teachers complete the allotted syllabus?"
+        
+        ],
+        "responses": [
+          "Yes, the teachers complete the allotted syllabus well before exams and also provide study materials to refer."
+        ],
+        "context_set": ""
+      } ,
+      {
+        "tag": " courses provided by the college?",
+        "patterns": [
+          "courses provided by the college",
+          "What are the courses provided by the college?"
+        ],
+        "responses": [
+          "UMIT provides courses of Computer Engineering, Computer Science and Technology, Data Science, Information Technology, Electronics and Telecommunication."
+        ],
+        "context_set": ""
+      } ,
+      {
+        "tag": "internships",
+        "patterns": [
+          "any internships provided by college?",
+          "internships",
+          "Are there any internships provided by college?"
+        ],
+        "responses": [
+          "The college provide many opportunities for internship during the start of 3rd year of engineering. The highest stippend is Rs 75 Thousand"
+        ],
+        "context_set": ""
+      } ,
+      {
+        "tag": "library facility",
+        "patterns": [
+          "facuilty of library",
+          "library facility",
+          "How is the library facility?"
+        ],
+        "responses": [
+          "The library faculty is very helpful .they will help you to get all the books you want  "
+        ],
+        "context_set": ""
+      } ,
+      
+      {
+        "tag": "college autonomous/private/government",
+        "patterns": [
+          "Is this college autonomous/private/government?"
+      
+        ],
+        "responses": [
+          "private"
+        ],
+        "context_set": ""
+      } ,
+      {
+        "tag": "ragging",
+        "patterns": [
+          "How is ragging prevented?",
+          "ragging happened?"
+        ],
+        "responses": [
+          "The ragging is prevented "
+        ],
+        "context_set": ""
+      } ,
+      {
+        "tag": "companies",
+        "patterns": [
+          "Which companies provide placement opportunity for the sudents of this college?",
+          "placement opportunity for the sudents of this college",
+          "Which companies?"
+        ],
+        "responses": [
+          "There are alot of companies    - Oracle , Barclays , Colgate , Deloitte , Microsoft , Infosys, visa "
+        ],
+        "context_set": ""
+      } ,
+      {
+        "tag": "eligibilty criteria for placement",
+        "patterns": [
+          "eligibilty criteria for placement",
+          "What is the eligibilty criteria for placement?",
+          "criteria for placement?"
+        ],
+        "responses": [
+          "The eligibility criteria for placement in engineering can vary depending on the specific company or organization offering the job position. However, here are some common eligibility criteria that most companies look for in potential candidates for engineering jobs",
+
+          "Educational Qualification: Candidates must have a bachelor's degree in engineering (B.E./B.Tech) or equivalent qualification from a recognized university or institute. Some companies may require a higher degree such as a master's or doctoral degree in engineering.",
+          
+          "Technical Skills: Candidates must possess strong technical skills in their area of engineering specialization, such as mechanical, electrical, civil, chemical, or computer engineering. They should be proficient in using relevant software, tools, and equipment related to their field.",
+          
+          "Work Experience: Companies may prefer candidates with prior work experience in a related field. However, freshers may also be eligible for certain job positions.",
+          
+          "Communication Skills: Good communication skills, both verbal and written, are essential for engineering jobs, as they involve collaborating with colleagues, clients, and stakeholders."
+        ],
+        "context_set": ""
+      } ,
+      {
+        "tag": "About curriculum",
+        "patterns": [
+          "About curriculum",
+          "curriculum of the college",
+          "what is About curriculum?"
+        ],
+        "responses": [
+          "There are lots of fest happend through whole year of different different councils "
+        ],
+        "context_set": ""
+      } ,
+      {
+        "tag": "scholarship provided to students",
+        "patterns": [
+          "scholarship ",
+          "scholarship provided to students",
+          "Are there any scholarship provided to students??"
+        ],
+        "responses": [
+          "there are lots of scholarship provided to students in cast category as well as who have less income "
+        ],
+        "context_set": ""
+      } ,
+      {
+        "tag": "need any extra classes",
+        "patterns": [
+          "need any extra classes",
+          "Do we need any extra classes besides college lectures?"
+        
+        ],
+        "responses": [
+          "No if you attend lectures seriously and with full of concentration then no need of attending other extra classes "
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "about this university",
+        "patterns": [
+          "about this university",
+          "Tell something about this university",
+          "what is about this university?"
+        ],
+        "responses": [
+          "The university has a diverse and inclusive community of students, faculty members, and staff from different cultural, social, and economic backgrounds. The university's mission is to empower women by providing them with quality education, promoting gender equality, and fostering social and economic development."
+        ],
+        "context_set": ""
+      } ,
+      {
+        "tag": "admission",
+        "patterns": [
+          "admission process is online or offline ?",
+          "process of admission"
+        ],
+        "responses": [
+          "You have to do offline admission after cet "
+        ],
+        "context_set": ""
+      } 
+      
+    ]
+  }
+  
